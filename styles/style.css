@@ -32,7 +32,7 @@ blockquote {
   background-color: #fee42a;
 }
 .header {
-  padding: 24px 20px;
+  padding: 24px 20px 22px 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -63,15 +63,16 @@ blockquote {
   background-image: url(/images/cover.svg);
   background-repeat: no-repeat;
   background-size: 339px 198px;
-  background-position: right;
+  background-position: right bottom;
   display: flex;
-  padding: 0 20px;
+  padding: 8px 22px 6px 22px;
 }
 .cover__title {
   width: 100%;
   font-size: 72px;
   font-family: "EB Garamond";
   font-weight: 400;
+  line-height: 1;
 }
 .accent-span {
   display: block;
@@ -83,7 +84,7 @@ blockquote {
   text-align: right;
 }
 .intro {
-  padding: 30px 20px 40px 20px;
+  padding: 28px 20px 38px 20px;
 }
 .intro__heading {
   display: flex;
@@ -91,6 +92,7 @@ blockquote {
   align-items: start;
 }
 .intro__title {
+  max-width: 203px;
   font-size: 16px;
   line-height: 1.2;
   color: #cccccc;
@@ -103,7 +105,7 @@ blockquote {
   font-weight: 400;
 }
 .intro__main-text {
-  margin-top: 24px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -147,7 +149,7 @@ blockquote {
 .cards-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 34px;
   margin-top: 32px;
   list-style: none;
 }
@@ -155,64 +157,64 @@ blockquote {
   border-radius: 30px;
   padding: 20px;
 }
-.card_theme_dark{
-    background-color: #343434;
-    color: #F5F5F5;
+.card_theme_dark {
+  background-color: #343434;
+  color: #f5f5f5;
 }
-.card_theme_bright{
-    background-color: #FEE42A;
-    color: #131313;
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
 }
-.card__author-photo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
-.card__author-name{
-    margin-top: 8px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.35;    
+.card__author-name {
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.35;
 }
-.card__content{
-    margin-top: 8px;
+.card__content {
+  margin-top: 8px;
 }
-.card_text-only .card__content{
-    margin-top: 0;
+.card_text-only .card__content {
+  margin-top: 0;
 }
-.card__title{
-    font-family: "EB Garamond";
-    font-size: 22px;
-    line-height: 1.35;
-    font-weight: 500;
+.card__title {
+  font-family: "EB Garamond";
+  font-size: 22px;
+  line-height: 1.38;
+  font-weight: 500;
 }
-.card__text{
-    margin-top: 8px;
-    font-size: 16px;
-    line-height: 21.6px;
-    font-weight: 400;
+.card__text {
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 21.6px;
+  font-weight: 400;
 }
-.footer{
-    border-top: 1px #FEE42A solid;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+.footer {
+  border-top: 1px #fee42a solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
-.footer__copy{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.35;
+.footer__copy {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.35;
 }
-.footer_links{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
+.footer_links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }
-.footer__link{
-    color: #F5F5F5;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.25;
-    text-decoration: none;
+.footer__link {
+  color: #f5f5f5;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-decoration: none;
 }
